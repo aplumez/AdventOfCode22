@@ -11,7 +11,7 @@ const solution1 = input
   .map(([comp1, comp2]) => [
     comp1,
     comp2,
-    comp1.filter((e) => comp2.some((x) => x === e))[0],
+    comp1.find((e) => comp2.some((x) => x === e)),
   ])
   .map(([a, b, c]) => {
     const t = c as string;
@@ -35,9 +35,9 @@ const solution2 = input
     comp3.split(''),
   ])
   .map(([comp1, comp2, comp3]: string[][]) => {
-    return comp1.filter(
+    return comp1.find(
       (e) => comp2.some((x) => x === e) && comp3.some((y) => y === e)
-    )[0];
+    );
   })
   .map((a) => a.charCodeAt(0) - (a === a.toUpperCase() ? 38 : 96))
   .reduce((acc, e) => acc + e, 0);
