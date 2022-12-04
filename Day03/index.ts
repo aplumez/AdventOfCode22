@@ -42,8 +42,6 @@ const solution2 = input
   .map((a) => a.charCodeAt(0) - (a === a.toUpperCase() ? 38 : 96))
   .reduce((acc, e) => acc + e, 0);
 
-console.log(solution2);
-
 export default {
   solution1,
   solution2,
