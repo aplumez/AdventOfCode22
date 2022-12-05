@@ -1,3 +1,3 @@
 # AdventOfCode22
 
-[Edit on StackBlitz ⚡️](https://techknow-advent-of-code.stackblitz.io)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/techknow-advent-of-code)
