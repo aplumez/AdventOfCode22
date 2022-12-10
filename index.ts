@@ -1,7 +1,7 @@
 // Import
 import './style.css';
 
-import solutions from './Day06/index';
+import solutions from './Day07/index';
 
 const solution1El = document.querySelector('#solution1 pre');
 const solution2El = document.querySelector('#solution2 pre');
